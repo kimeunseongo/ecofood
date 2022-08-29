@@ -1,0 +1,225 @@
+.heartshare{
+    width:30px;
+    height:30px;
+    
+}
+
+.heartshare:hover{
+    cursor: pointer;
+}
+
+
+.question:hover{
+    cursor: pointer;
+}
+
+.numberbtn1{
+list-style: none;
+background-color: #64a862;
+border: 1px solid black;
+float: left;
+
+}
+
+.numberbtn1>li{
+    float: left;
+   
+    width:30px;
+}
+.numberbtn1>li:hover{
+    cursor: pointer;
+}
+
+.reviewline>h3{
+    text-align: left;
+    color:black;
+    margin-bottom: 20px;
+    margin-top: 40px;
+    font-family:Maven Pro;
+    font-weight:600;
+
+
+}
+
+/* 베스트리뷰 css */
+ .revbox{
+    
+    list-style: none;
+    display: flex;
+   flex-wrap: wrap;
+   justify-content:flex-start;
+   
+   font-family:Maven Pro;
+ 
+   margin: 0PX 0px 0px -32px;
+
+}
+
+.revbox>li{
+
+
+    margin-right:15px ;
+   
+}
+
+.revmini{
+    
+    display: flex;
+    padding-top:10px;
+    font-family:Maven Pro;
+    border-top: 1px solid #cccccc;
+ 
+}
+
+.revmini:hover{
+    cursor: pointer;
+}
+
+
+.viewmore:hover{
+    cursor: pointer;
+}
+
+
+
+
+
+.revimg>img{
+
+    width:200px;
+    height: 200px;
+    padding: 20px;
+}
+
+
+
+/* 48리뷰들 css */
+
+
+
+.revbox2{
+    
+    list-style: none;
+    display: flex;
+   flex-wrap: wrap;
+   font-family:Maven Pro;
+ 
+   margin: 0PX 0px 0px -32px;
+
+}
+
+.revbox2>li{
+
+
+    margin-right:15px ;
+   
+}
+
+.revmini2{
+    
+  
+    padding-top:10px;
+    font-family:Maven Pro;
+    border-top: 1px solid #cccccc;
+
+ 
+}
+
+.revmini2:hover{
+    cursor: pointer;
+}
+
+
+
+.revimg2{
+    display: flex;
+    
+}
+
+.revimg2>img{
+
+    width:100px;
+    height: 100px;
+    
+}
+
+
+
+
+/* 48리뷰 옆 최근리뷰와 / 마지막리뷰 */
+
+.rev2top>li{
+    float: left;
+    font-family: Maven Pro;
+}
+
+.rev2top>li:hover{
+    cursor: pointer;
+}
+
+
+.rev48:hover{
+    cursor: pointer;
+
+}
+.faqline{
+
+ 
+    text-align: left;
+    margin-top: 20px;
+    font-family:Maven Pro;
+    
+}
+
+.faqline > h3{
+
+    color:black;
+    margin-bottom: 20px;
+    margin-top: 40px;
+    font-family:Maven Pro;
+    font-weight:600;
+}
+
+
+
+.faqline >ul>li{
+    list-style: none;
+}
+
+.faqline >ul> .faqred{
+    color:red;
+}
+
+.faqline >ul>li>.faqdot{
+
+    color:#64a862;
+    margin-right: 10px;
+}
+
+
+.page-link {
+  color: #999; 
+  background-color:white;
+  border-color: #ccc;
+}
+
+.page-item.active .page-link {
+ z-index: 1;
+ color: white;
+ font-weight:bold;
+ background-color: #64a862;
+  border-color: #64a862;
+ 
+}
+
+.page-link:focus, .page-link:hover {
+  color: white;
+  background-color: #64a862; 
+
+}
+
+
+.goodthing{
+
+    color:red;
+}

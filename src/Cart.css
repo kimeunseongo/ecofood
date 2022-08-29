@@ -1,0 +1,14 @@
+.findid>li{
+    float: left;
+    background-color: red;
+    list-style: none;
+}
+
+.start {
+    transform: scale(0);
+  
+  }
+  .end {
+     transform: scale(1);
+     transition :all 0.5s;
+  }
